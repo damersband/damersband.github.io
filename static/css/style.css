@@ -1,0 +1,104 @@
+body{
+
+}
+
+.container {
+  
+}
+
+  .carousel-inner img {
+    /*-webkit-filter: grayscale(90%);
+    /*filter: grayscale(90%); /* make all photos black and white */
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+  }
+  
+
+  .bg-2 {
+    display:inline-block;
+    color: #fff !important;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    
+  }
+  
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+
+
+.bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+}
+.bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;
+    color: #e4dada;
+    }
+
+.dates{
+    color: #2d2d30
+}
+
+.navbar {
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+
+  footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+    width: 100%;
+  }
+  
+  footer a {
+    color: #f5f5f5;
+  }
+  
+  footer a:hover {
+    color: #777;
+    text-decoration: none;
+  }
+
+
+  /* Step 1: Common Properties: All required to make icons render reliably */
+.icon::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Step 2: Reference Individual Icons */
+.login::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f007";
+}
+
+/* Note: Make sure to include the correct weight and Unicode value for the icon */
+.tps::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  content: "\f1ea";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.person {
+  border: 10px solid transparent;
+  margin-bottom: 25px;
+  width: 70%;
+  opacity: 0.7;
+}
+.person:hover {
+  border-color: #f1f1f1;
+}
+
